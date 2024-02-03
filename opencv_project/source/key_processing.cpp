@@ -1,5 +1,6 @@
 #include "key_processing.h"
 
+
 void keyProcess(Controller &controller, DataFactory &data, ModelFactory &model, ViewSrc &window1) {
     //  Vector with descriptions of key actions
     std::vector<std::string> frameText = {"P - change datatype to photo", "V - change datatype to video",
